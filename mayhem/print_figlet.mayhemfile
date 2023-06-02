@@ -1,0 +1,6 @@
+project: pyfiglet
+target: print_figlet
+duration: 600
+cmds:
+    - cmd: /src/mayhem/fuzz_print_figlet.py
+      libfuzzer: true

@@ -1,0 +1,6 @@
+project: pyfiglet
+target: figlet_format
+duration: 600
+cmds:
+    - cmd: /src/mayhem/fuzz_figlet_format.py
+      libfuzzer: true
